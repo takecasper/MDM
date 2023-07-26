@@ -18,10 +18,10 @@
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-gb/HT212585"
+          "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
         }
       ],
-      "requiredInstallationDate": "2023-07-28T23:45:01Z",
+      "requiredInstallationDate": "2023-08-28T23:45:01Z",
       "requiredMinimumOSVersion": "12.99",
       "targetedOSVersionsRule": "12"
     }
@@ -36,7 +36,10 @@
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
     "nudgeRefreshCycle": 60,
-    "randomDelay": false
+    "randomDelay": false,
+    "allowGracePeriods": true,
+    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "gracePeriodInstallDelay": 24
   },
   "userInterface": {
     "fallbackLanguage": "en",
@@ -50,16 +53,16 @@
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "Update Device",
-        "informationButtonText": "More Info",
+        "actionButtonText": "Open Software Update",
+        "informationButtonText": "More Information",
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes",
-        "mainContentSubHeader": "Updates can take around 10-15 minutes to complete.",
-        "mainContentText": "A fully up-to-date device is required to ensure that we on the techops team can protect our data.\n\nIf you do not update by the due date, you will effectively be locked out of your system until you complete the update.\n\nWhile the update has been rigorously tested it's advised you do this as soon as possible to avoid any downtime, as well as help us find any issues early on with the update.\n\nTo begin the update, simply click on the Update Device button and follow the prompts.\n\nFor more information, hit *More Info* in the bottom left corner of this window.",
-        "mainHeader": "Your device requires a macOS Security Update",
+        "mainContentSubHeader": "Updates usually take 30 minutes to complete",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is highly encouraged to click the *More Information* button in the buttom left corner of this winder if it is your first time seeing this window",
+        "mainHeader": "Your device requires a Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
-        "subHeader": "A friendly reminder from your local IT team"
+        "subHeader": "A friendly reminder from Acuity Insights"
       }
     ]
   }
