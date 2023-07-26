@@ -6,7 +6,7 @@
 		<array>
 			<dict>
 				<key>json-url</key>
-				<string>https://github.com/mahruf94/MDM/blob/main/Nudge/macOS%2012%20Update/com.github.macadmins.Nudge.json</string>
+				<string>https://raw.githubusercontent.com/mahruf94/MDM/a432c4815ddd2562dcdafda56504c1b540fce0d5/Nudge/macOS%2012%20Update/com.github.macadmins.Nudge.json</string>
 				<key>PayloadDisplayName</key>
 				<string>Nudge - Web Based Configuration</string>
 				<key>PayloadIdentifier</key>
