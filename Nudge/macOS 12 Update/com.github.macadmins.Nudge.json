@@ -21,7 +21,7 @@
           "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
         }
       ],
-      "requiredInstallationDate": "2023-08-28T23:45:01Z",
+      "requiredInstallationDate": "2023-08-25T23:45:01Z",
       "requiredMinimumOSVersion": "12.99",
       "targetedOSVersionsRule": "12"
     }
@@ -29,9 +29,12 @@
   "userExperience": {
     "allowedDeferrals": 100,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
+    "allowUserQuitDeferrals": true,
     "approachingRefreshCycle": 6000,
     "approachingWindowTime": 120,
     "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
     "initialRefreshCycle": 18000,
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
@@ -39,6 +42,7 @@
     "randomDelay": false,
     "allowGracePeriods": true,
     "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "gracePeriodLaunchDelay": 5,
     "gracePeriodInstallDelay": 24
   },
   "userInterface": {
@@ -60,7 +64,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "Updates usually take 30 minutes to complete",
-        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is highly encouraged to click the *More Information* button in the buttom left corner of this window if it is your first time seeing this prompt!",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the buttom left-corner to learn how to update if it's your first time seeing this prompt!",
         "mainHeader": "Your device requires a Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
