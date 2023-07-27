@@ -60,9 +60,9 @@
       {
         "_language": "en",
         "actionButtonText": "Open Software Update",
-        "informationButtonText": "More Information",
+        "informationButtonText": "More Information 🧠",
         "mainContentHeader": "Your device will restart during this update",
-        "mainContentNote": "Important Notes",
+        "mainContentNote": "⚠️ Important Notes ⚠️",
         "mainContentSubHeader": "Updates usually take 30 minutes to complete",
         "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the buttom left-corner to learn how to update if it's your first time seeing this prompt!",
         "mainHeader": "Your device requires a Security Update",
