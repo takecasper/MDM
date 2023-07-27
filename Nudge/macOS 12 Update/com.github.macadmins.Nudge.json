@@ -47,6 +47,8 @@
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
     "iconLightPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
+    "screenShotDarkPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
+    "screenShotLightPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
