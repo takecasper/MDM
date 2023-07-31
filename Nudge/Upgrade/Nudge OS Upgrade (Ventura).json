@@ -10,7 +10,7 @@
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": true,
     "asynchronousSoftwareUpdate": true,
-    "attemptToFetchMajorUpgrade": false,
+    "attemptToFetchMajorUpgrade": true,
     "enforceMinorUpdates": true,
     "disableSoftwareUpdateWorkflow": true
   },
