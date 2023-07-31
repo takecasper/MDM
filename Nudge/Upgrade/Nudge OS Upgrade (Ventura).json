@@ -1,0 +1,76 @@
+{
+  "optionalFeatures": {
+    "acceptableAssertionUsage": true,
+   "acceptableAssertionApplicationNames": [
+        "zoom.us",
+        "Google Chrome"
+    ],
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": true,
+    "aggressiveUserFullScreenExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true,
+    "disableSoftwareUpdateWorkflow": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
+        }
+      ],
+      "requiredInstallationDate": "2023-08-25T23:45:01Z",
+      "requiredMinimumOSVersion": "13.5",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 100,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
+    "allowUserQuitDeferrals": true,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 120,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false,
+    "allowGracePeriods": true,
+    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "gracePeriodLaunchDelay": 5,
+    "gracePeriodInstallDelay": 24
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": true,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
+    "iconLightPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
+    "screenShotDarkPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
+    "screenShotLightPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Open Self-Service",
+        "informationButtonText": "More Information 🧠",
+        "mainContentHeader": "Your device will restart during this upgrade",
+        "mainContentNote": "⚠️ Important Notes ⚠️",
+        "mainContentSubHeader": "Upgrades usually take 30-40 minutes to complete",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the upgrade, simply click on the *Open Self-Service* button.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the buttom left-corner to learn how to upgrade if it's your first time seeing this prompt!",
+        "mainHeader": "Your device requires a macOS Upgrade",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from Acuity Insights"
+      }
+    ]
+  }
+}
