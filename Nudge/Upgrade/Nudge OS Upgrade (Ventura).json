@@ -47,6 +47,7 @@
     "gracePeriodInstallDelay": 24
   },
   "userInterface": {
+    "actionButtonText": "mosylebusiness://",
     "fallbackLanguage": "en",
     "forceFallbackLanguage": true,
     "forceScreenShotIcon": false,
