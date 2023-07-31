@@ -6,7 +6,7 @@
 		<array>
 			<dict>
 				<key>json-url</key>
-				<string></string>
+				<string>https://raw.githubusercontent.com/mahruf94/MDM/main/Nudge/Upgrade/Nudge%20OS%20Upgrade%20(Ventura).json</string>
 				<key>PayloadDisplayName</key>
 				<string>Nudge - Web Based Configuration</string>
 				<key>PayloadIdentifier</key>
