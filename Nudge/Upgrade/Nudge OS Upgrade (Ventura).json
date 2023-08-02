@@ -28,7 +28,7 @@
     }
   ],
   "userExperience": {
-    "allowedDeferrals": 100,
+    "allowedDeferrals": 30,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
     "allowUserQuitDeferrals": true,
     "approachingRefreshCycle": 6000,
@@ -44,7 +44,8 @@
     "allowGracePeriods": true,
     "gracePeriodPath": "/private/var/db/.AppleSetupDone",
     "gracePeriodLaunchDelay": 5,
-    "gracePeriodInstallDelay": 24
+    "gracePeriodInstallDelay": 24,
+    "randomDelay": true
   },
   "userInterface": {
     "actionButtonPath": "mosylebusiness://",
@@ -68,7 +69,7 @@
         "mainContentSubHeader": "Upgrades usually take 30-40 minutes to complete",
         "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the upgrade, simply click on the *Open Self-Service* button.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the buttom left-corner to learn how to upgrade if it's your first time seeing this prompt!",
         "mainHeader": "Your device requires a macOS Upgrade",
-        "primaryQuitButtonText": "Later",
+        "primaryQuitButtonText": "30 Minutes",
         "secondaryQuitButtonText": "I understand",
         "subHeader": "A friendly reminder from Acuity Insights"
       }
