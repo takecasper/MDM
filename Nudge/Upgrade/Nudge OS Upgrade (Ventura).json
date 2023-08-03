@@ -40,7 +40,6 @@
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
     "nudgeRefreshCycle": 60,
-    "randomDelay": false,
     "allowGracePeriods": true,
     "gracePeriodPath": "/private/var/db/.AppleSetupDone",
     "gracePeriodLaunchDelay": 5,
