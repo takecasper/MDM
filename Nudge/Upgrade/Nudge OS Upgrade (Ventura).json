@@ -66,7 +66,7 @@
         "mainContentHeader": "Your device will restart during this upgrade",
         "mainContentNote": "⚠️ Important Notes ⚠️",
         "mainContentSubHeader": "Upgrades usually take 30-40 minutes to complete",
-        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the upgrade, simply click on the *Open Self-Service* button.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the buttom left-corner to learn how to upgrade if it's your first time seeing this prompt!",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the upgrade, simply click on the *Open Self-Service* button.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the bottom left-corner to learn how to upgrade if it's your first time seeing this prompt!",
         "mainHeader": "Your device requires a macOS Upgrade",
         "primaryQuitButtonText": "30 Minutes",
         "secondaryQuitButtonText": "I understand",
