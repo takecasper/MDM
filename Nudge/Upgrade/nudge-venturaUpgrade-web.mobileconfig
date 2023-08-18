@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>json-url</key>
+				<string>https://raw.githubusercontent.com/mahruf94/MDM/main/Nudge/Upgrade/Nudge%20OS%20Upgrade%20(Ventura).json</string>
+				<key>PayloadDisplayName</key>
+				<string>Nudge - Web Based Configuration</string>
+				<key>PayloadIdentifier</key>
+				<string>com.github.macadmins.Nudge.3428CCEB-352B-4A81-AF57-3E7340476F2A</string>
+				<key>PayloadType</key>
+				<string>com.github.macadmins.Nudge</string>
+				<key>PayloadUUID</key>
+				<string>3428CCEB-352B-4A81-AF57-3E7340476F2A</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Configures Nudge application</string>
+		<key>PayloadDisplayName</key>
+		<string>Nudge</string>
+		<key>PayloadIdentifier</key>
+		<string>com.github.macadmins.Nudge</string>
+		<key>PayloadOrganization</key>
+		<string>Nudge</string>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>1CFF5A3A-C236-4956-808C-21DC20CC6F12</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
