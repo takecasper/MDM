@@ -1,0 +1,76 @@
+{
+  "optionalFeatures": {
+    "acceptableAssertionUsage": true,
+   "acceptableAssertionApplicationNames": [
+        "zoom.us",
+        "Google Chrome"
+    ],
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": true,
+    "aggressiveUserFullScreenExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true,
+    "disableSoftwareUpdateWorkflow": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
+        }
+      ],
+      "requiredInstallationDate": "2023-09-15T23:45:01Z",
+      "requiredMinimumOSVersion": "13.5.1",
+      "targetedOSVersionsRule": "13"
+    }
+  ],
+  "userExperience": {
+    "allowedDeferrals": 30,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
+    "allowUserQuitDeferrals": true,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 120,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "allowGracePeriods": true,
+    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "gracePeriodLaunchDelay": 5,
+    "gracePeriodInstallDelay": 24,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": true,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
+    "iconLightPath": "/Library/Application Support/AcuityInsights/images/AcuityInsights_Icon.png",
+    "screenShotDarkPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
+    "screenShotLightPath": "/Library/Application Support/AcuityInsights/images/SoftwareUpdate12.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Open Software Update",
+        "informationButtonText": "More Information 🧠",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "⚠️ Important Notes ⚠️",
+        "mainContentSubHeader": "Updates usually take 30 minutes to complete",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the bottom left-corner to learn how to update if it's your first time seeing this prompt!",
+        "mainHeader": "Your device requires a Security Update",
+        "primaryQuitButtonText": "30 Minutes",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from Acuity Insights"
+      }
+    ]
+  }
+}
