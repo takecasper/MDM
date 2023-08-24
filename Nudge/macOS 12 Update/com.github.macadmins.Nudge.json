@@ -25,6 +25,17 @@
       "requiredInstallationDate": "2023-09-15T23:45:01Z",
       "requiredMinimumOSVersion": "12.6.8",
       "targetedOSVersionsRule": "12"
+    },
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
+        }
+      ],
+      "requiredInstallationDate": "2023-09-15T23:45:01Z",
+      "requiredMinimumOSVersion": "13.5.1",
+      "targetedOSVersionsRule": "13"
     }
   ],
   "userExperience": {
