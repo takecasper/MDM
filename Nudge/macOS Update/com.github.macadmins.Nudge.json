@@ -22,8 +22,8 @@
           "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
         }
       ],
-      "requiredInstallationDate": "2023-09-15T23:45:01Z",
-      "requiredMinimumOSVersion": "12.6.9",
+      "requiredInstallationDate": "2023-10-27T23:45:01Z",
+      "requiredMinimumOSVersion": "12.7",
       "targetedOSVersionsRule": "12"
     },
     {
@@ -33,8 +33,8 @@
           "aboutUpdateURL": "https://acuityinsights.atlassian.net/wiki/spaces/IT/pages/3037921293/Nudge"
         }
       ],
-      "requiredInstallationDate": "2023-09-15T23:45:01Z",
-      "requiredMinimumOSVersion": "13.5.2",
+      "requiredInstallationDate": "2023-10-27T23:45:01Z",
+      "requiredMinimumOSVersion": "13.6",
       "targetedOSVersionsRule": "13"
     }
   ],
