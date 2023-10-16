@@ -76,7 +76,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "⚠️ Important Notes ⚠️",
         "mainContentSubHeader": "Updates usually take 30 minutes to complete",
-        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps.\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the bottom left-corner to learn how to update if it's your first time seeing this prompt!",
+        "mainContentText": "A fully up-to-date operating system is required to ensure the security of Acuity Insights.\n\nTo begin the update, simply click on the *Open Software Update* button and follow the provided steps. Make sure to plug your device into power before updating!!!\n\nIt is HIGHLY ENCOURAGED to click the *More Information* button in the bottom left-corner to learn how to update if it's your first time seeing this prompt!",
         "mainHeader": "Your device requires a Security Update",
         "primaryQuitButtonText": "30 Minutes",
         "secondaryQuitButtonText": "I understand",
